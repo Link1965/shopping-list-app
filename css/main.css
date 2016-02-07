@@ -4,17 +4,24 @@
 	background-color: #b3b3b3;
 }
 
+.header-content{
+	margin: 0px auto;
+	width: 50%;
+}
+
 .header-content h1 {
 	font-family: 'Pacifico', cursive;
 	font-style: italic;
 	font-size: 75px;
 	font-weight: lighter;
+	display: inline-block;
 }
 
 .cart-image, .mirrored-cart {
 	border-style: double;
 	border-width: 6px;
 	border-color: red;
+	display: inline-block;
 }
 
 
