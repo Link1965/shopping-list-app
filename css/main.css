@@ -1,12 +1,16 @@
 .header {
 	height: 200px;
 	width: 100%;
-	background-color: #b3b3b3;
+	background-color: #ffffcc;
+	border-bottom: double;
+	border-width: 6px;
+	border-color: #990000;
 }
 
 .header-content{
 	margin: 0px auto;
 	width: 50%;
+	text-align: center;
 }
 
 .header-content h1 {
@@ -14,14 +18,31 @@
 	font-style: italic;
 	font-size: 75px;
 	font-weight: lighter;
-	display: inline-block;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 37px;
+	color: #990000;
 }
 
-.cart-image, .mirrored-cart {
+.cart-image, .mirrored-cart  {
 	border-style: double;
 	border-width: 6px;
-	border-color: red;
-	display: inline-block;
+	border-color: #990000;
+	display: inline;
+	margin-top: 40px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 30px;
+}
+
+.list-items {
+	list-style: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 27px;
+	width: 15%;
 }
 
 
