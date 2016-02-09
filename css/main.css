@@ -5,6 +5,7 @@
 	border-bottom: double;
 	border-width: 6px;
 	border-color: #990000;
+	text-shadow: 3px 2px 3px #57524B;
 }
 
 .header-content{
@@ -30,6 +31,7 @@
 	border-color: #990000;
 	display: inline;
 	margin-top: 40px;
+	box-shadow: 3px 2px 3px #57524B;
 }
 
 h3 {
@@ -38,12 +40,43 @@ h3 {
 	font-size: 30px;
 }
 
+.item-input {
+	margin: 0 auto;
+	width: 20%;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.input-box {
+	border-width: 1.5px;
+}
+
+.add-item {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+	width: 100px;
+	height: 30px;
+	background-color: #b3b3b3;
+	border-radius: 25px;
+	border-style: none;
+
+}
+
 .list-items {
 	list-style: none;
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 27px;
-	width: 15%;
+	width: 30%;
+	margin: 0 auto;
 }
 
+.remove {
+	background-color: #b3b3b3;
+	border-radius: 25px;
+	border-style: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+	
+}
 
 
