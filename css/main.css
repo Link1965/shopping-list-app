@@ -16,7 +16,7 @@
 
 .header-content{
 	margin: 0px auto;
-	width: 50%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -47,18 +47,63 @@ h3 {
 	font-size: 30px;
 }
 
+@media (max-width: 880px) {
+
+	.header-content h1 {
+		font-size: 48px;
+	}
+
+	.cart-image, .mirrored-cart  {
+		height: 50px;
+		width: 50px;
+		margin-top: 20px;	
+	}	
+
+	.header {
+		height: 120px;	
+	}
+	
+	.add-item, .clear-btn {
+		font-size: 12px;
+		width: 60px;
+		height: 18px;
+	}
+
+	.item-input {
+		width: 500px;
+	}
+
+	h3 {
+		font-size: 12px;
+	}	
+	
+	.list-items {
+		font-size: 15px;
+	}
+
+	.item {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 600px) {
+	.cart-image, .mirrored-cart  {	
+		display: none;
+	}
+}
+
 .item-input {
 	margin: 0 auto;
-	width: 20%;
-	margin-bottom: 70px;
+	width: 50%;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
-.input-box {
-	border-width: 1.5px;
+#input-box {
+	border-width: 1.8px;
 }
 
-.add-item {
+.add-item, .clear-btn {
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 20px;
 	width: 100px;
@@ -66,15 +111,18 @@ h3 {
 	background-color: #b3b3b3;
 	border-radius: 25px;
 	border-style: none;
+<<<<<<< HEAD
 	box-shadow: 3px 2px 3px #57524B;
 
+=======
+>>>>>>> master
 }
 
 .list-items {
 	list-style: none;
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 27px;
-	width: 30%;
+	width: 20%;
 	margin: 0 auto;
 }
 
@@ -84,7 +132,16 @@ h3 {
 	border-style: none;
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 20px;
+<<<<<<< HEAD
 
+=======
+	padding-left: 3px;
+	padding-right: 5px;
+	float: right;	
+>>>>>>> master
 }
+
+
+
 
 
