@@ -9,7 +9,6 @@ $(document).ready(function() {
                                 '<button class="remove">X</button>' +
                               '</li>');
       }
-      $(this).parents(".item").css("text-decoration", "line-through");
     });
 
     $(".clear-btn").click(function() {
